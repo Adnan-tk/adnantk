@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Adnan - Software Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for better typography: Montserrat (headings) and Roboto (body) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons (social links, skill icons, etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="navbar container">
+            <button id="darkModeToggle" class="btn btn-outline" aria-label="Toggle dark mode" style="margin-left: 20px;">
+                <i class="fas fa-moon"></i>
+            </button>
+            <a href="#home" class="logo">ADNAN</a>
+
+            <!-- Hamburger menu for mobile -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#work-experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn header-btn desktop-only">GET IN TOUCH</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home/Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <p class="greeting">HI, I'M</p>
+                    <h1 class="name">Muhammed Adnan</h1>
+                    <!-- <h2 class="title">SOFTWARE DEVELOPER</h2> -->
+                    <p class="button" data-text="Awesome">
+                        <span class="actual-text">&nbsp;SOFTWARE DEVELOPER&nbsp;</span>
+                        <span aria-hidden="true" class="hover-text" style="overflow: hidden;">&nbsp;SOFTWARE DEVELOPER&nbsp;</span>
+                    </p>
+                    <p class="description">
+                        A passionate Full-Stack Developer specializing in Python and Django, focused on building scalable, high-performance web applications with clean, user-centered design. Dedicated to delivering impactful digital solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="Muhammed_Adnan_CV.pdf" download class="btn">DOWNLOAD CV <i class="fas fa-download"></i></a>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/adnan-muhammed-an/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Adnan-tk" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new&to=muhammedadnantks@gmail.com&subject=Contact%20from%20Portfolio&body=Hello%20Adnan," aria-label="Email"><i class="fas fa-envelope"></i></a>
+                            <!-- Add more social links as needed -->
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+
+                    <img src="image.jpg" alt="Muhammed Adnan" class="hero-image" >
+                    <div class="hero-image-outline"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container about-content">
+                <h3 class="section-title">ABOUT</h3>
+                <div class="about-description">
+                    <p><i class="fas fa-code green-icon"></i> As a Full-Stack Developer, my expertise lies in crafting robust and efficient web applications. I focus on developing scalable solutions with Python and Django for the backend, and creating intuitive user interfaces with modern frontend technologies. My goal is to deliver impactful digital products that are both high-performing and user-friendly, always adhering to best practices in design and development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container skills-content">
+                <h3 class="section-title">SKILLS</h3>
+                <div class="expertise-area-wrapper">
+                    <div class="areas-expertise">
+                        <h4><i class="fas fa-terminal green-icon"></i> Areas of Expertise</h4>
+                        <div class="expertise-list">
+                            <ul>
+                                <li><strong>Backend:</strong> Python, Django, FastAPI</li>
+                                <li><strong>Frontend:</strong> HTML, CSS, JavaScript, Angular</li>
+                                <li><strong>API:</strong> RESTful APIs, GraphQL</li>
+                                <li><strong>Databases:</strong> PostgreSQL, SQLite</li>
+                                <li><strong>Tools:</strong> Git, Docker, AWS</li>
+                            </ul>
+                        </div>
+                    </div>    
+                    </div>
+                </div>
+
+                <div class="skills-grid-new">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fab fa-html5 skill-icon"></i>
+                        <span class="skill-name-new">HTML5</span>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fab fa-css3-alt skill-icon"></i>
+                        <span class="skill-name-new">CSS3</span>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fab fa-js skill-icon"></i>
+                        <span class="skill-name-new">JavaScript</span>
+                    </div>
+                    <!-- Skill Card 4 (Changed from React to Angular) -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fab fa-angular skill-icon"></i>
+                        <span class="skill-name-new">Angular</span>
+                    </div>
+                    <!-- Skill Card 5 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fab fa-python skill-icon"></i>
+                        <span class="skill-name-new">Python</span>
+                    </div>
+                    <!-- Skill Card 6 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fas fa-database skill-icon"></i>
+                        <span class="skill-name-new">PostgreSQL</span>
+                    </div>
+                    <!-- Skill Card 7 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fab fa-node-js skill-icon"></i>
+                        <span class="skill-name-new">Node.js</span>
+                    </div>
+                    <!-- Skill Card 8 -->
+                    <div class="skill-card animated-fade-in">
+                        <i class="fas fa-gem skill-icon"></i>
+                        <span class="skill-name-new">Django</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="work-experience" class="work-experience-section">
+            <div class="container work-experience-content">
+                <h3 class="section-title">Work Experience</h3>
+                <div class="timeline">
+                    <div class="timeline-item animated-from-left">
+                        <div class="timeline-date">MAY 2025 - Present</div>
+                        <div class="timeline-details">
+                            <h4><i class="fas fa-briefcase green-icon"></i> Intern Software Developer / Febno Technologies</h4>
+                            <ul>
+                                <li>Contributing to a large-scale internal project by developing backend components using Python and the Django framework.</li>
+                                <li>Writing clean, efficient code and collaborating with senior developers to troubleshoot issues and improve performance.</li>
+                                <li>Gaining hands-on experience with real-world development cycles, including database integration, API development, and template rendering in Django.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Updated project for 'Freelance Frontend Design' -->
+                    <div class="timeline-item animated-from-right">
+                        <div class="timeline-date">Jan 2025 - April 2025</div>
+                        <div class="timeline-details">
+                            <h4><i class="fas fa-laptop-code green-icon"></i> Freelance Frontend Design (Client Projects)</h4>
+                            <ul>
+                                <li>Delivered stunning and responsive website frontend designs for diverse clients, focusing on modern UI/UX principles.</li>
+                                <li>Utilized HTML, CSS (with advanced techniques), and JavaScript to create interactive and visually appealing interfaces.</li>
+                                <li>Collaborated closely with clients to translate their visions into functional and aesthetic web designs.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="container education-content">
+                <h3 class="section-title">EDUCATION</h3>
+                <div class="timeline">
+                    <div class="timeline-item animated-from-left">
+                        <div class="timeline-date">MAY/2025 - Present</div>
+                        <div class="timeline-details">
+                            <h4><i class="fas fa-graduation-cap green-icon"></i> Skill Diploma in Python Fullstack</h4>
+                            <p>Techno Dot Academy Of RDI</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item animated-from-right">
+                        <div class="timeline-date">Sept 2021 - May 2024</div>
+                        <div class="timeline-details">
+                            <h4><i class="fas fa-graduation-cap green-icon"></i> Bachelor of Commerce</h4>
+                            <p>University of Calicut</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container projects-content">
+                <h3 class="section-title">PROJECTS</h3>
+                <div class="project-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card animated-fade-in-up">
+                        <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+                        <h4>E-commerce Platform</h4>
+                        <p>An end-to-end shopping solution built with clean UI and secure backend logic. Features product listing, user login, cart management, and a streamlined checkout flow. Built using Python, Django, HTML, and CSS.</p>
+                        <a href="#" class="view-project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div class="project-card animated-fade-in-up">
+                        <div class="project-icon"><i class="fas fa-school"></i></div>
+                        <h4>School Management System (Fullstack)</h4>
+                        <p>A comprehensive digital platform to manage student data, teacher roles, and class schedules efficiently. Includes attendance tracking and role-based access. Developed using Python and Django.</p>
+                        <a href="#" class="view-project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Project Card 3 (Changed to "Blog App Development") -->
+                    <div class="project-card animated-fade-in-up">
+                        <div class="project-icon"><i class="fas fa-blog"></i></div>
+                        <h4>Blog App Development</h4>
+                        <p>A responsive blog platform allowing users to create, read, update, and delete posts. Features user authentication, comment section, and categorization. Built with Django and vanilla JavaScript for dynamic elements.</p>
+                        <a href="#" class="view-project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Project Card 4 (Changed to "School Management Frontend & UI Design") -->
+                    <div class="project-card animated-fade-in-up">
+                        <div class="project-icon"><i class="fas fa-paint-brush"></i></div>
+                        <h4>School Management Frontend & UI Design</h4>
+                        <p>Designed and implemented the complete frontend and user interface for a school management system. Focused on intuitive navigation, clean aesthetics, and responsive layouts to ensure a seamless user experience across devices.</p>
+                        <a href="#" class="view-project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+                           <div class="terminal-loader">
+                <div class="terminal-header">
+                    <div class="terminal-title">work_Status</div>
+                    <div class="terminal-controls">
+                    <div class="control close"></div>
+                    <div class="control minimize"></div>
+                    <div class="control maximize"></div>
+                    </div>
+                </div>
+                <div class="text">Available...</div>
+                </div>
+            <div class="container contact-grid">
+                <div class="contact-info-panel animated-from-left">
+                    <h3>LET'S WORK TOGETHER</h3>
+                    <p>I am always open to new opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <i class="fas fa-phone green-icon"></i>
+                            <span>(+91) 7510683264</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope green-icon"></i>
+                            <span>muhammmedadnan@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt green-icon"></i>
+                            <span>Calicut, Kerala, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links-panel">
+                        <a href="https://www.linkedin.com/in/adnan-muhammed-an/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Adnan-tk" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <!-- Add more social links as needed -->
+                    </div>
+                </div>
+                <div class="contact-form-panel animated-from-right">
+                    <h3>CONTACT ME!</h3>
+                    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                        <!-- change area -->
+                        <input type="hidden" name="access_key" value="dfded0ec-4aa0-48a9-8ef6-dc3b2db875ee">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                             <div class="form-group">
+                                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <p style=" background-image: linear-gradient(to top left, #1e293b, #6366f1, #d4d4d8);background-clip: text;-webkit-background-clip: text;color: transparent;">Copyright © ADNAN 2025</p>
+
+     </div>
+    </footer>
+
+    <!-- Basic JavaScript for Hamburger Menu and Scroll Animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Smooth scroll for nav links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Close hamburger menu on click if open (for mobile)
+                    if (document.getElementById('menu-toggle').checked) {
+                        document.getElementById('menu-toggle').checked = false;
+                    }
+                });
+            });
+
+            // Intersection Observer for scroll-triggered animations
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.1 // Trigger when 10% of element is visible
+            };
+
+            const animateOnScroll = (entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animated');
+                        // Staggered animation for skills grid cards
+                        if (entry.target.classList.contains('skills-grid-new')) {
+                            const skillCards = entry.target.querySelectorAll('.skill-card');
+                            skillCards.forEach((card, index) => {
+                                setTimeout(() => {
+                                    card.classList.add('animated');
+                                }, index * 80); // Staggered animation
+                            });
+                        }
+                        // Staggered animation for project cards
+                        if (entry.target.classList.contains('project-grid')) {
+                            const projectCards = entry.target.querySelectorAll('.project-card');
+                            projectCards.forEach((card, index) => {
+                                setTimeout(() => {
+                                    card.classList.add('animated');
+                                }, index * 80); // Staggered animation
+                            });
+                        }
+                        observer.unobserve(entry.target); // Stop observing once animated
+                    }
+                });
+            };
+
+            const sectionsToAnimate = document.querySelectorAll(
+                '.hero-text, .hero-image-wrapper, .about-description, .areas-expertise, .skills-grid-new, ' +
+                '.timeline-item, .project-card, .contact-info-panel, .contact-form-panel, .section-title'
+            );
+            const observer = new IntersectionObserver(animateOnScroll, observerOptions);
+
+            sectionsToAnimate.forEach(section => {
+                observer.observe(section);
+            });
+        });
+            // Dark mode toggle logic
+            const darkModeBtn = document.getElementById('darkModeToggle');
+            const body = document.body;
+
+            // Load saved mode from localStorage
+            if (localStorage.getItem('darkMode') === 'on') {
+                body.classList.add('dark');
+            }
+
+            darkModeBtn.addEventListener('click', () => {
+                body.classList.toggle('dark');
+                // Save preference
+                if (body.classList.contains('dark')) {
+                localStorage.setItem('darkMode', 'on');
+                } else {
+                localStorage.setItem('darkMode', 'off');
+                }
+            });
+    </script>
+</body>
+</html>
