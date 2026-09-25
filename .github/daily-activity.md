@@ -64,3 +64,4 @@
 - 2026-09-25: DEMO COMMIT 5 — harmless activity-log update; no application/source code changed.
 - 2026-09-25: DEMO COMMIT 6 — harmless activity-log update; no application/source code changed.
 - 2026-09-25: DEMO COMMIT 7 — harmless activity-log update; no application/source code changed.
+- 2026-09-25: DEMO COMMIT 8 — harmless activity-log update; no application/source code changed.
