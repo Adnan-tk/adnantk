@@ -7,3 +7,5 @@
 - 2026-10-05: DEMO ACTIVITY 3 — harmless demonstration activity; no application/source code changed.
 
 - 2026-10-05: DEMO ACTIVITY 4 — harmless demonstration activity; no application/source code changed.
+
+- 2026-10-05: DEMO ACTIVITY 5 — harmless demonstration activity; no application/source code changed.
